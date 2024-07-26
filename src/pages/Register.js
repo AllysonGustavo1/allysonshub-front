@@ -1,4 +1,3 @@
-// src/pages/Register.js
 import React, { useState } from "react";
 import ToggleMessage from "../components/ToggleMessage";
 import HeaderForm from "../components/HeaderForm";

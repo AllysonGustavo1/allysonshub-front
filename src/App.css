@@ -51,7 +51,7 @@ body {
 }
 
 .toggle-message {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
   color: white;
   font-size: 14px;
@@ -68,7 +68,18 @@ body {
   cursor: pointer;
   text-decoration: underline;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 0; /* Remover margem superior */
+}
+
+.toggle-message button {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
+  margin-top: 0; /* Remover margem superior */
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
 }
 
 button {
